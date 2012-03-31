@@ -1,6 +1,6 @@
 You are free to modify this in any way you wish. Although not a requirement, I would love to hear, and see, how you've changed it. This is exclusively to satisfy my curiosity. Regardless enjoy.
 
-Implement the Nordic game Hnefatafl (don’t ask me how to pronounce it, I always call in viking chess). 
+Implements the Nordic game Hnefatafl (don’t ask me how to pronounce it, I always call it viking chess). 
 
 This project was made using the MVC structure. Due to the nature of Java I felt that in this case the controller was inseparable from the view thus there is no distinct controller. The rules are as follows.
 

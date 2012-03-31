@@ -1,0 +1,30 @@
+You are free to modify this in any way you wish. Although not a requirement, I would love to hear, and see, how you've changed it. This is exclusively to satisfy my curiosity. Regardless enjoy.
+
+Implement the Nordic game Hnefatafl (don’t ask me how to pronounce it, I always call in viking chess). 
+
+This project was made using the MVC structure. Due to the nature of Java I felt that in this case the controller was inseparable from the view thus there is no distinct controller. The rules are as follows.
+
+Rules
+The game is played on a 11×11 board.
+
+The king starts on the central square or castle which no other piece may ever occupy, once the king leave that square he cannot return.
+
+The four corner squares are thrones, which only the king may occupy.
+
+White’s goal is to get the king to one of the corner thrones.
+
+Black’s goal is to kill the king
+
+The twelve defenders, white, start on the twelve squares adjoining the thrones
+
+The twenty-four attackers, black, start in groups of six at the center of each edge of the board
+
+Any piece may move any number of vacant spaces in any straight line [←↑→↓], but not diagonally.
+
+No piece may ever pass over another piece in its path.
+
+Any piece, save for the king, may be captured and removed from the board if it is actively surrounded on two opposite sides by enemies, walls, thrones, and the castle are treated as enemies. (This means that you can walk between enemies without harm. eg.. if a black piece moves to surround a white piece then that piece is dead but if a white piece walks between two enemies he is unaffected.)
+
+If the king is surrounded on all four sides by enemies, he is taken prisoner. If he is surrounded on three sides, he may escape by the fourth.
+
+If the king is on a square adjoining the thrones and is surrounded on three sides by his enemies and the fourth by a throne, he is captured.
